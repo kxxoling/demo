@@ -5,6 +5,8 @@ nav.nav
       router-link(to="/dragon-maid") 小林家的女仆龙
     li
       router-link(to="/remove-phone") 手机删除
+    li
+      router-link(to="/im-feeling-lucky") I'm feeling lucky
 
 </template>
 
