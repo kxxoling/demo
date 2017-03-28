@@ -4,6 +4,8 @@ import Index from '@/components/Index';
 import DragonMaid from '@/components/DragonMaid';
 import RemovePhone from '@/components/RemovePhone';
 import GoogleLucky from '@/components/GoogleLucky';
+import AppSettings from '@/components/AppSettings';
+import MessageDialog from '@/components/MessageDialog';
 
 Vue.use(Router);
 
@@ -28,6 +30,16 @@ export default new Router({
       path: '/im-feeling-lucky',
       name: 'GoogleLucky',
       component: GoogleLucky,
+    },
+    {
+      path: '/app-settings',
+      name: 'AppSettings',
+      component: AppSettings,
+    },
+    {
+      path: '/message-dialog',
+      name: 'MessageDialog',
+      component: MessageDialog,
     },
   ],
 });

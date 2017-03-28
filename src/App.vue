@@ -10,6 +10,7 @@
 
 <script>
 import 'normalize.css/normalize.css';
+import 'font-awesome/css/font-awesome.css';
 
 import TopMenu from '@/containers/TopMenu';
 import SideList from '@/containers/SideList';

@@ -7,6 +7,10 @@ nav.nav
       router-link(to="/remove-phone") 手机删除
     li
       router-link(to="/im-feeling-lucky") I'm feeling lucky
+    li
+      router-link(to="/message-dialog") Message Dialog
+    li
+      router-link(to="/app-settings") App Settings
 
 </template>
 

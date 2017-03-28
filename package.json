@@ -12,6 +12,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "font-awesome": "^4.6.3",
     "normalize.css": "^5.0.0",
     "spectre.css": "^0.2.7",
     "vue": "^2.2.1",
