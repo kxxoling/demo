@@ -6,6 +6,7 @@ import RemovePhone from '@/components/RemovePhone';
 import GoogleLucky from '@/components/GoogleLucky';
 import AppSettings from '@/components/AppSettings';
 import MessageDialog from '@/components/MessageDialog';
+import Slider from '@/components/Slider';
 
 Vue.use(Router);
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/message-dialog',
       name: 'MessageDialog',
       component: MessageDialog,
+    },
+    {
+      path: '/slider',
+      name: 'Slider',
+      component: Slider,
     },
   ],
 });

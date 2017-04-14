@@ -11,6 +11,8 @@ nav.nav
       router-link(to="/message-dialog") Message Dialog
     li
       router-link(to="/app-settings") App Settings
+    li
+      router-link(to="/slider") Slider
 
 </template>
 
