@@ -7,6 +7,7 @@ import GoogleLucky from '@/components/GoogleLucky';
 import AppSettings from '@/components/AppSettings';
 import MessageDialog from '@/components/MessageDialog';
 import Slider from '@/components/Slider';
+import DragUploader from '@/components/DragUploader';
 
 Vue.use(Router);
 
@@ -46,6 +47,11 @@ export default new Router({
       path: '/slider',
       name: 'Slider',
       component: Slider,
+    },
+    {
+      path: '/drag-uploader',
+      name: 'DragUploader',
+      component: DragUploader,
     },
   ],
 });

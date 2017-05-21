@@ -13,6 +13,8 @@ nav.nav
       router-link(to="/app-settings") App Settings
     li
       router-link(to="/slider") Slider
+    li
+      router-link(to="/drag-uploader") Drag and Drop Uploader
 
 </template>
 
