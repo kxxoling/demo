@@ -15,6 +15,9 @@ nav.nav
       router-link(to="/slider") Slider
     li
       router-link(to="/drag-uploader") Drag and Drop Uploader
+    li
+      router-link(to="/github") GitHub Cards
+
 
 </template>
 

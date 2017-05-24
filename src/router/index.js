@@ -8,6 +8,7 @@ import AppSettings from '@/components/AppSettings';
 import MessageDialog from '@/components/MessageDialog';
 import Slider from '@/components/Slider';
 import DragUploader from '@/components/DragUploader';
+import Github from '@/containers/Github';
 
 Vue.use(Router);
 
@@ -52,6 +53,11 @@ export default new Router({
       path: '/drag-uploader',
       name: 'DragUploader',
       component: DragUploader,
+    },
+    {
+      path: '/github',
+      name: 'Github',
+      component: Github,
     },
   ],
 });
