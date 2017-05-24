@@ -1,7 +1,7 @@
 <template lang="jade">
 .drag-uploader
   .box(@dragover="onDragover" @drop="onDrop" @dragend="onDragend" @dragstart="onDragstart")
-    .text Drag a file here.
+    .text Drag images here.
     img.img
   img.img(v-for="file in files" v-bind:src="file")
 </template>
