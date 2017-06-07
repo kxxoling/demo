@@ -17,6 +17,8 @@ nav.nav
       router-link(to="/drag-uploader") Drag and Drop Uploader
     li
       router-link(to="/github") GitHub Cards
+    li
+      router-link(to="/plus-one-sec") +1s
 
 
 </template>

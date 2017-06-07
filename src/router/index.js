@@ -9,6 +9,7 @@ import MessageDialog from '@/components/MessageDialog';
 import Slider from '@/components/Slider';
 import DragUploader from '@/components/DragUploader';
 import Github from '@/containers/Github';
+import PlusOneSec from '@/components/PlusOneSec';
 
 Vue.use(Router);
 
@@ -58,6 +59,11 @@ export default new Router({
       path: '/github',
       name: 'Github',
       component: Github,
+    },
+    {
+      path: '/plus-one-sec',
+      name: 'PlusOneSec',
+      component: PlusOneSec,
     },
   ],
 });
