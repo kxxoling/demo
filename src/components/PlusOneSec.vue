@@ -1,6 +1,5 @@
 <template lang="jade">
 span.plus-one-sec(@click="toggleActive", v-bind:class="{ active: active }") +1s
-  span.after(v-if="active") +1s
 </template>
 
 <script>
@@ -42,7 +41,8 @@ export default {
     border none
     background-color red
 
-  .after
+  &.active::after
+    content "+1s"
     position absolute
     display block
     left 0
