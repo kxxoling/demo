@@ -11,12 +11,12 @@ const actions = {
   getUserInfo({ commit }, username) {
     const api = `https://api.github.com/users/${username}`;
     axios.get(api)
-    .then(rsp => commit('setUserInfo', { username, payload: rsp.data }));
+      .then(rsp => commit('setUserInfo', { username, payload: rsp.data }));
   },
   getRepoData({ commit }, repoId) {
     const api = `https://api.github.com/repos/${repoId}`;
     axios.get(api)
-    .then(rsp => commit('setRepoData', { repoId, payload: rsp.data }));
+      .then(rsp => commit('setRepoData', { repoId, payload: rsp.data }));
   },
 };
 
