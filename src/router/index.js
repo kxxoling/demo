@@ -10,6 +10,7 @@ import Slider from '@/components/Slider';
 import DragUploader from '@/components/DragUploader';
 import Github from '@/containers/Github';
 import PlusOneSec from '@/components/PlusOneSec';
+import WorldMap from '@/components/WorldMap';
 
 Vue.use(Router);
 
@@ -64,6 +65,11 @@ export default new Router({
       path: '/plus-one-sec',
       name: 'PlusOneSec',
       component: PlusOneSec,
+    },
+    {
+      path: '/world-map',
+      name: 'WorldMap',
+      component: WorldMap,
     },
   ],
 });

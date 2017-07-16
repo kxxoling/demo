@@ -19,6 +19,8 @@ nav.nav
       router-link(to="/github") GitHub Cards
     li
       router-link(to="/plus-one-sec") +1s
+    li
+      router-link(to="/world-map") World Map
 
 
 </template>
