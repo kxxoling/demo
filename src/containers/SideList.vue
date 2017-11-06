@@ -21,6 +21,10 @@ nav.nav
       router-link(to="/plus-one-sec") +1s
     li
       router-link(to="/world-map") World Map
+    li
+      router-link(to="/world-map") World Map
+    li
+      router-link(to="/letter-by-letter") Letter by Letter
 
 
 </template>
