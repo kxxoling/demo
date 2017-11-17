@@ -18,6 +18,7 @@
     "axios": "^0.17.1",
     "d3-geo": "^1.9.0",
     "font-awesome": "^4.7.0",
+    "html2canvas": "^0.5.0-beta4",
     "normalize.css": "^7.0.0",
     "nuxt": "^1.0.0-rc11",
     "topojson-client": "^3.0.0",

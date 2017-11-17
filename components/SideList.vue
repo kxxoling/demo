@@ -23,6 +23,8 @@ nav.nav
       router-link(to="/WorldMap") World Map
     li
       router-link(to="/LetterByLetter") Letter by Letter
+    li
+      router-link(to="/Screenshot") Screenshot
 
 </template>
 
