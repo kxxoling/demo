@@ -1,13 +1,13 @@
 <template lang="pug">
 .github-card.repo-card
   .header
-    a.avatar(v-bind:href="repo.owner.html_url", target="_blank")
-      img(v-bind:src="repo.owner.avatar_url")
+    a.avatar(v-bind:href="owner.html_url", target="_blank")
+      img(v-bind:src="owner.avatar_url")
     strong.name
       a(v-bind:href="repo.html_url", target="_blank") {{ repo.full_name }}
       sup.language {{ repo.language }}
     span Created by &nbsp;
-      a(v-bind:href="repo.owner.html_url", target="_blank") {{ repo.owner.login }}
+      a(v-bind:href="owner.html_url", target="_blank") {{ owner.login }}
     a.button(v-bind:href="repo.html_url", target="_blank") Star
   .content
     p {{ repo.description }} &nbsp;
@@ -31,6 +31,14 @@ export default {
   data() {
     return {
     };
+  },
+  computed: {
+    owner() {
+      if (this.repo && this.repo.owner) {
+        return this.repo.owner;
+      }
+      return {};
+    },
   },
 };
 </script>

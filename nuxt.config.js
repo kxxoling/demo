@@ -13,6 +13,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  router: {
+    base: process.env.BASE_URL || '/',
+  },
   /*
   ** Customize the progress bar color
   */
@@ -24,6 +27,7 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+    publicPath: '/nuxt/',
     extend (config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({

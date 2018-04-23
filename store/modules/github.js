@@ -5,6 +5,7 @@ const state = {
   repoId: 'kxxoling/demo',
   users: {},
   repos: {},
+  repo: {},
 };
 
 const actions = {
@@ -39,9 +40,7 @@ const mutations = {
 
 const getters = {
   user: state_ => state_.users[state_.username] || {},
-  repo(state_) {
-    return state_.repos[state_.repoId] || {};
-  },
+  repo: state_ => state_.repos[state_.repoId] || {},
   users: state_ => state_.users,
   repoId: state_ => state_.repoId,
   username: state_ => state_.username,

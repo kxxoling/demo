@@ -7,11 +7,6 @@
 </template>
 
 <script type="text/javascript">
-document.ondragover = function preventDefault(e) {
-  e.preventDefault();
-};
-
-
 export default {
   data() {
     return {
